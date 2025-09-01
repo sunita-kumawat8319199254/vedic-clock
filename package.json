@@ -4,8 +4,7 @@
   "description": "Scrape vedicstandardtime.com clock and serve as JSON",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
