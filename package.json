@@ -1,0 +1,16 @@
+{
+  "name": "vedic-scraper",
+  "version": "1.0.0",
+  "description": "Scrape vedicstandardtime.com clock and serve as JSON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "puppeteer": "^22.13.1"
+  }
+}
